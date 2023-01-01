@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1500px) {
+	.container > #linksFooter{
+        display: flex;
+ 		flex-direction: column;
+	}
+}
+
+#bannerFooter {
+    height: 195px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#accueil, #presentation, #formations, #experiences, #realisations, #contact {
+    position: absolute; 
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#accueil {
+    top: 17%;
+    left: 25%;
+}
+
+#presentation {
+    top: 17%;
+    left: 35%;
+}
+
+#formations {
+    top: 17%;
+    left: 45%;
+}
+
+#experiences {
+    top: 17%;
+    left: 55%;
+}
+
+#realisations {
+    top: 17%;
+    left: 65%;
+}
+
+#contact {
+    top: 17%;
+    left: 75%;
+}
+
+
+.credits {
+    top: 70%;
+    left: 39%;
+    position: absolute;
+    color: white;
+}

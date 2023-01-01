@@ -1,0 +1,48 @@
+.quiSuisJe {
+    padding: 10px;
+    max-width: 75%;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: rgba(0, 0, 0, 0.097);
+    border-radius: 20px;
+}
+
+.quiSuisJe > h1 {
+    padding: 25px;
+}
+
+.quiSuisJe > p {
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.histoire, .artsGraphiques, .aeronautiqueAerospatial, .sportsAutomobile {
+    background-color: rgba(0, 0, 0, 0.097);
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.imgHistoire, .imgArtsGraph, .imgAeroSpatial, .imgSportsAutos {
+    max-width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+}
+

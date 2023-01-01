@@ -1,0 +1,94 @@
+@media (max-width:1500px) {
+    #section-contact{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.contact {
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: max-content;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.097);
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.left-side {
+    flex: 50%;
+    font-size: large;
+}
+
+#photo {
+    margin-left: 25%;
+    border-radius: 5%;
+    max-width: 50%;
+    max-height: 35%;
+}
+
+.text {
+    margin: 1%;
+    padding: 10px;
+}
+
+.left-side a {
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+.left-side a:hover {
+    background-color: rgba(131, 130, 130, 0.394);
+    border-radius: 20px;
+    color: white;
+}
+
+.left-side a:visited {
+    color: black;
+}
+
+.contact-medias-list {
+    margin-left: 1%;
+    padding-left: 50px;
+}
+
+.right-side {
+    padding: 5%;
+    flex: 50%;
+}
+
+#nom, #prenom, #email, .message {
+    margin: 3%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.message {
+    height: 300px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+#submit {
+    width: 150px;
+    height: 35px;
+    margin-left: 5%;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    border: 1px solid rgb(63, 63, 63);
+}
+
+#submit:hover {
+    border-color: rgba(0, 0, 0, 0.139);
+    background-color: rgba(0, 0, 0, 0.139);
+}
