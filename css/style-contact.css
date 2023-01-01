@@ -5,6 +5,10 @@
     }
 }
 
+a {
+    color: black;
+}
+
 .contact {
     width: 60%;
     margin: auto;

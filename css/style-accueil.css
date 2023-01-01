@@ -30,6 +30,7 @@
 }
 .text > a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
@@ -71,6 +72,7 @@ a:visited {
 .rubriques a {
     padding: 14px 16px;
     text-decoration: none;
+    color: black;
 }
 
 .rubriques a:hover {
