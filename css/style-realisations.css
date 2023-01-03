@@ -62,17 +62,29 @@
 #eclipse {
     width: 75%;
 }
+#javaFX {
+    width: 70%
+}
 #kubuntu {
     width: 35%;
 }
 #javaScript {
     width: 40%;
 }
+#git {
+    width: 50%;
+}
 #postgresql {
     width: 100%;
 }
 #python {
     width: 75%;
+}
+#microsoftAccess {
+    width: 33%;
+}
+#virtualBox {
+    width: 50%
 }
 
 .technosUtilisees > img {
