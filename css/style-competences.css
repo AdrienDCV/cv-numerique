@@ -1,0 +1,101 @@
+.container-experience {
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.097);
+    border-radius: 20px;
+}
+
+.title {
+    margin: 1%;
+} 
+
+.subtitle {
+    padding: 3px;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.sub-subtitle {
+    margin-left: 10%;
+}
+
+.card {
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.097);
+    border-radius: 20px;
+}
+
+.soft-skills-list {
+    margin-top: 1%;
+    margin-left: 7%;
+}
+
+.skills {
+    margin: 1%;
+}
+
+.list {
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.skills > .list > li {
+    list-style: none;
+}
+
+.list-text {
+    list-style: none;
+}
+
+.skills  > .list > li > img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.skills  > .list >li > #java {
+    width: 33%;
+}
+.skills  > .list >li > #c {
+    width: 15%;
+}
+.skills  > .list >li > #python {
+    width: 50%;
+}
+.skills  > .list >li > #html-css {
+    width: 33%;
+}
+.skills > .list > li > #SQL  {
+    width: 33%;
+}
+.skills  > .list >li > #postgresql {
+    width: 55%;
+}
+.skills  > .list >li > #virtualBox {
+    width: 25%;
+}
+.skills  > .list >li > #git {
+    width: 35%;
+}
+.skills  > .list >li > #vscode {
+    width: 17%;
+}
+.skills  > .list >li > #eclipse {
+    width: 55%;
+}
+.skills  > .list > li > #kubuntu {
+    width: 35%;
+}
+.skills > .list > li > p {
+    font-size: 25px;
+}
+
+

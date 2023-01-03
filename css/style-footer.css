@@ -20,7 +20,7 @@ body {
     color: white;
 }
 
-#accueil, #presentation, #formations, #experiences, #realisations, #contact {
+#accueil, #presentation, #formations, #competences, #experiences, #realisations, #contact {
     position: absolute; 
     color: white;
     text-decoration: none;
@@ -29,15 +29,20 @@ body {
 
 #accueil {
     top: 17%;
-    left: 25%;
+    left: 15%;
 }
 
 #presentation {
     top: 17%;
-    left: 35%;
+    left: 25%;
 }
 
 #formations {
+    top: 17%;
+    left: 35%;
+}
+
+#competences {
     top: 17%;
     left: 45%;
 }

@@ -57,7 +57,7 @@
 }
 
 #vscode {
-    width: 33%;
+    width: 10%;
 }
 #eclipse {
     width: 75%;
@@ -70,9 +70,6 @@
 }
 #postgresql {
     width: 100%;
-}
-#microsoftAccess {
-    width: 40%;
 }
 #python {
     width: 75%;
