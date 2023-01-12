@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link href="./css/style-header.css" rel="stylesheet">
     <link href="./css/style-footer.css" rel="stylesheet">
     <link href="./css/style-accueil.css" rel="stylesheet">
@@ -51,19 +51,23 @@
 
         <div class="pages">
             <div class="title"><h1>Les différents articles :</h1></div>
-            <div class="rubriques">
-                <a href="./presentation.html">
-                    <h2>
-                        Présentation
-                    </h2>
-                    <p style="white-space: pre-line;">
-                        Apprenez à me connaître
-                        au travers de cette présentation
-                        plus détaillée de ma personnalité et
-                        de mes centres d'intérêt.
-                    </p>
-                </a>
-                <a href="./formation.html">
+            <div class="rubriques-container">
+                <div class="articles">
+                    <a href="./presentation.html">
+                        <h2>
+                            Présentation
+                        </h2>
+                        <p style="white-space: pre-line;">
+                            Apprenez à me connaître
+                            au travers de cette présentation
+                            plus détaillée de ma personnalité et
+                            de mes centres d'intérêt.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="articles">
+                    <a href="./formation.html">
                         <h2>
                             Formation
                         </h2>
@@ -72,19 +76,25 @@
                             et universitaire et autres 
                             formations.
                         </p>
-                </a>
-                <a href="./competences.html">
-                    <h2>
-                        Mes compétences
-                    </h2>
-                    <p style="white-space: pre-line;">
-                        Les compétences
-                        que j'ai développé
-                        au cours de ma formation
-                        et dans mon temps libre.
-                    </p>
-            </a>
-                <a href="./experience.html">
+                    </a>
+                </div>
+
+                <div class="articles">
+                    <a href="./competences.html">
+                        <h2>
+                            Mes compétences
+                        </h2>
+                        <p style="white-space: pre-line;">
+                            Les compétences
+                            que j'ai développé
+                            au cours de ma formation
+                            et dans mon temps libre.
+                        </p>
+                    </a>
+                </div>
+              
+                <div class="articles">
+                    <a href="./experience.html">
                         <h2>
                             Mon expérience
                         </h2>
@@ -93,8 +103,11 @@
                             de mon expérience
                             professionnelle.
                         </p>
-                </a>
-                <a href="./realisations.html">
+                    </a>
+                </div>
+               
+                <div class="articles">
+                    <a href="./realisations.html">
                         <h2>
                             Mes réalisations
                         </h2>
@@ -103,8 +116,11 @@
                             dans le cadre de mes études
                             ou dans mon temps personnel.
                         </p>
-                </a>
-                <a href="./contact.html">
+                    </a>
+                </div>
+
+                <div class="articles">
+                    <a href="./contact.html">
                         <h2>
                             Me contacter
                         </h2>
@@ -112,7 +128,9 @@
                            Vous trouverez ici tous les
                             moyens de me contacter.
                         </p>
-                </a>
+                    </a>
+                </div>
+
             </div>
         </div>
 
@@ -121,7 +139,7 @@
     <footer>
         <div class="container"> 
             <div class="linksFooter">
-                <a href="" id="accueil">Accueil</a>
+                <a href="" id="accueil" class="accueil">Accueil</a>
                 <a href="./presentation.html" id="presentation">Présentation</a> 
                 <a href="./formation.html" id="formations">Formation</a>
                 <a href="./competences.html" id="competences">Compétences</a>
@@ -131,7 +149,7 @@
             </div>
            
             <div class="credits">
-                <p> <span class="text">Site web designé et développé par Adrien DA COSTA VEIGA - 2022</span>
+                <p> <span class="text">Site web designé et développé par Adrien DA COSTA VEIGA - 2022</span></p>
             </div>
 
             <div class="bannerFooter">
