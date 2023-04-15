@@ -24,7 +24,7 @@
     height: auto;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 .carte {
     margin: 5%;
@@ -84,7 +84,13 @@
     width: 33%;
 }
 #virtualBox {
-    width: 50%
+    width: 50%;
+}
+#typeScript {
+    width: 40%;
+}
+#socketIo {
+    width: 40%;
 }
 
 .technosUtilisees > img {
