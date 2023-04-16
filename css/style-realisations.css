@@ -33,6 +33,10 @@
     border-radius: 20px;
 }
 
+em {
+    font-weight: bolder;
+}
+
 @media (max-width:800px) {
     .carte {
         display: flex;
